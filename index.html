@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="home.css">
-    <script href="home.js" defer></script>
+    <script src="home.js" defer></script>
 </head>
 
 <body>
@@ -22,12 +22,9 @@
       <div>
         <a href="#">Home</a>
         <a href="#">Shop</a>
-        <select name="categories" id="categories">
-          <option value="" selected>categories</option>
-          <option value="">clothes</option>
-          <option value="">furniture</option>
-          <option value="">ghjkl</option>
-        </select>
+        <a href="#Popular">Popular</a>
+        <a href="#clothes">clothes</a>
+        <a href="#shoes">shoes</a>
         <a href="#">About</a>
       </div>
       <div>
@@ -35,15 +32,16 @@
         <button id="cart">
           <span
             ><img
-              src="./images/shopping-cart.png"
+              src="icons/1111 (1).jpeg"
               width="18xpx"
               height="18px" /></span
           >cart
+          <span id="counter">0</span>
         </button>
         <button id="mode">
           <span
             ><img
-              src="./images/sleep-mode.png"
+              src="icons/1111 (2).jpeg"
               alt=""
               width="17xpx"
               height="17px"
@@ -59,13 +57,211 @@
       </audio>
 
       <button id="musicBtn">Play Music</button>
-    <section>
+      <div  class="icons" >
+        <img src="img/WhatsApp Image 2026-09-01 at 1.12.17 PM.jpeg" width="50px" height="50px" />
+        <img src="img/WhatsApp Image 2026-09-01 at 1.12.18 PM (1).jpeg" width="50px" height="50px" />
+        <img src="img/WhatsApp Image 2026-09-01 at 1.12.18 PM (2).jpeg" width="50px" height="50px" />
+        <img src="img/WhatsApp Image 2026-09-01 at 1.12.18 PM.jpeg" width="50px" height="50px" />
+        </div>
+    <section id="Popular">
     <h3 class="sec-title">Popular Products</h3>
-  <div class="contener">
+  <div class="contener scrol">
     <div class="dirction">
       <div class="card">
-        <img class="card-img" src="img/25 Modern Kitchen Ideas in 2026 Borrowed from High-End Homes Before They’re Filtered.jfif" width="250px" height="200px" />
-        <h4>Products name</h4>
+        <img class="card-img" src="img/download (7).jfif" width="250px" height="200px" />
+        <h4>puma shoes</h4>
+        <P class="card-p">nice shoes and quality</P>
+        <p class="price">
+         4.22$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/ootd.jfif" width="250px" height="200px" />
+        <P class="card-p">nice clothes woooooow</P>
+         <p class="price">
+         4.22$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/download (8).jfif" width="250px" height="200px" />
+        <P class="card-p">nice shoes wooooow!!!</P>
+         <p class="price">
+         10$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/download (12).jfif" width="250px" height="200px" />
+        <P class="card-p">amazing clothes</P>
+         <p class="price">
+         12$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/download (9).jfif" width="250px" height="200px" />
+        <P class="card-p">incridible shoes</P>
+         <p class="price">
+         2$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/Soft Pink Casual Outfit Women Love in 2026.jfif" width="250px" height="200px" />
+        <P class="card-p">nice clothes</P>
+         <p class="price">
+         40$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+</section>
+<section id="shoes" class="first-sec">
+    <h3 class="sec-title">shoes</h3>
+  <div class="contener scrol2">
+    <div class="dirction">
+      <div class="card">
+        <img class="card-img" src="img/download (7).jfif" width="250px" height="200px" />
+        <P class="card-p">nice shoes and ronaldo wears it</P>
+         <p class="price">
+         100$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/download (8).jfif" width="250px" height="200px" />
+        <P class="card-p">nice shoes</P>
+         <p class="price">
+         3$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/Combine com qualquer look_.jfif" width="250px" height="200px" />
+        <P class="card-p">amazing shoes ans ali wears it</P>
+         <p class="price">
+         1000$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/download (9).jfif" width="250px" height="200px" />
+        <P class="card-p">nice shoes</P>
+         <p class="price">
+         4.2$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/New Balance Unisex-Adult RC42 Sneaker.jfif" width="250px" height="200px" />
+        <P class="card-p">woooooow shoes</P>
+         <p class="price">
+         5.33$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/download (11).jfif" width="250px" height="200px" />
+        <P class="card-p">nice shoes</P>
+         <p class="price">
+         7.44$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+</section>
+<section id="clothes" class="first-sec">
+    <h3 class="sec-title">clothes</h3>
+  <div class="contener scrol3">
+    <div class="dirction">
+      <div class="card">
+        <img class="card-img" src="img/download (12).jfif" width="250px" height="200px" />
+        <P class="card-p">nice clothes</P>
+         <p class="price">
+         5.32$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/Classic Rust Brown Polo Shirt & White Pants Outfit.jfif" width="250px" height="200px" />
+        <P class="card-p">woooooooow clothes</P>
+         <p class="price">
+         33$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/Classy Brown Shirt with Wide Leg Jeans Outfit 🤎👖✨.jfif" width="250px" height="200px" />
+        <P class="card-p">amazing clothes</P>
+         <p class="price">
+         12$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/clothes2026.jfif" width="250px" height="200px" />
+        <P class="card-p">nice shoes</P>
+         <p class="price">
+         555$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/Soft Pink Casual Outfit Women Love in 2026.jfif" width="250px" height="200px" />
+        <P class="card-p">incridible clothes</P>
+         <p class="price">
+         4.22$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/ootd.jfif" width="250px" height="200px" />
+        <P class="card-p">nice clothes</P>
+         <p class="price">
+         4.22$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+</section>
+<section class="first-sec">
+    <h3 class="sec-title">accessories</h3>
+  <div class="contener scrol4">
+    <div class="dirction">
+      <div class="card">
+        <img class="card-img" src="img/1 (1).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
         <p class="price">
          4.22$
@@ -75,131 +271,174 @@
     </div>
     <div>
       <div class="card">
-        <img class="card-img" src="img/clothes2026.jfif" width="250px" height="200px" />
+        <img class="card-img" src="img/1 (2).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
+        <p class="price">
+         4.22$
+        </p>
         <button class="card-btn">Add To Card</button>
       </div>
     </div>
     <div>
       <div class="card">
-        <img class="card-img" src="img/download (3).jfif" width="250px" height="200px" />
+        <img class="card-img" src="img/1 (3).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
+        <p class="price">
+         4.22$
+        </p>
         <button class="card-btn">Add To Card</button>
       </div>
     </div>
     <div>
       <div class="card">
-        <img class="card-img" src="img/download (4).jfif" width="250px" height="200px" />
+        <img class="card-img" src="img/1 (4).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
+        <p class="price">
+         4.22$
+        </p>
         <button class="card-btn">Add To Card</button>
       </div>
     </div>
     <div>
       <div class="card">
-        <img class="card-img" src="img/download (5).jfif" width="250px" height="200px" />
+        <img class="card-img" src="img/1 (5).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
+        <p class="price">
+         4.22$
+        </p>
         <button class="card-btn">Add To Card</button>
       </div>
     </div>
     <div>
       <div class="card">
-        <img class="card-img" src="img/download (6).jfif" width="250px" height="200px" />
+        <img class="card-img" src="img/1 (6).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
+
+        <p class="price">
+         4.22$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/1 (7).jfif" width="250px" height="200px" />
+        <P class="card-p">nice table</P>
+
+        <p class="price">
+         4.22$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/1 (8).jfif" width="250px" height="200px" />
+        <P class="card-p">nice table</P>
+
+        <p class="price">
+         4.22$
+        </p>
         <button class="card-btn">Add To Card</button>
       </div>
     </div>
 </section>
 <section class="first-sec">
-    <h3>Popular Products</h3>
-  <div class="contener">
+   <h3 class="sec-title">furnture</h3>
+  <div class="contener scrol5">
     <div class="dirction">
       <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
+        <img class="card-img" src="img/ali (1).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
+        <p class="price">
+         4.22$
+        </p>
         <button class="card-btn">Add To Card</button>
       </div>
     </div>
     <div>
       <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
+        <img class="card-img" src="img/ali (2).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
+        <p class="price">
+         4.22$
+        </p>
         <button class="card-btn">Add To Card</button>
       </div>
     </div>
     <div>
       <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
+        <img class="card-img" src="img/ali (3).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
+        <p class="price">
+         4.22$
+        </p>
         <button class="card-btn">Add To Card</button>
       </div>
     </div>
     <div>
       <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
+        <img class="card-img" src="img/ali (4).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
+        <p class="price">
+         4.22$
+        </p>
         <button class="card-btn">Add To Card</button>
       </div>
     </div>
     <div>
       <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
+        <img class="card-img" src="img/ali (5).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
+        <p class="price">
+         4.22$
+        </p>
         <button class="card-btn">Add To Card</button>
       </div>
     </div>
     <div>
       <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
+        <img class="card-img" src="img/ali (6).jfif" width="250px" height="200px" />
         <P class="card-p">nice table</P>
+
+        <p class="price">
+         4.22$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/ali (7).jfif" width="250px" height="200px" />
+        <P class="card-p">nice table</P>
+
+        <p class="price">
+         4.22$
+        </p>
+        <button class="card-btn">Add To Card</button>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img class="card-img" src="img/ali (8).jfif" width="250px" height="200px" />
+        <P class="card-p">nice table</P>
+
+        <p class="price">
+         4.22$
+        </p>
         <button class="card-btn">Add To Card</button>
       </div>
     </div>
 </section>
-<section class="first-sec">
-    <h3>Popular Products</h3>
-  <div class="contener">
-    <div class="dirction">
-      <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
-        <P class="card-p">nice table</P>
-        <button class="card-btn">Add To Card</button>
-      </div>
+<div id="popup">
+    <div id="cartpopup" class="scrol6">
+      <h1>Cart</h1>
+      <button id="popup-X">&times;</button>
+      <section id="cartSec">
+      </section>
     </div>
-    <div>
-      <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
-        <P class="card-p">nice table</P>
-        <button class="card-btn">Add To Card</button>
-      </div>
-    </div>
-    <div>
-      <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
-        <P class="card-p">nice table</P>
-        <button class="card-btn">Add To Card</button>
-      </div>
-    </div>
-    <div>
-      <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
-        <P class="card-p">nice table</P>
-        <button class="card-btn">Add To Card</button>
-      </div>
-    </div>
-    <div>
-      <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
-        <P class="card-p">nice table</P>
-        <button class="card-btn">Add To Card</button>
-      </div>
-    </div>
-    <div>
-      <div class="card">
-        <img class="card-img" src="imgs/premium_photo-1664392147011-2a720f214e01.avif" width="250px" height="200px" />
-        <P class="card-p">nice table</P>
-        <button class="card-btn">Add To Card</button>
-      </div>
-    </div>
-</section>
+  </div>
 </body>
 </html>
