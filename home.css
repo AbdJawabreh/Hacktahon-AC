@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #navhead{
-    background-color:rgba(162, 205, 97, 0.9);
+    background-color:#001e1d;
     border-radius: 5px;
     margin: 10px;
     display: flex;
@@ -64,6 +64,12 @@
         align-items: center;
         gap: 5px;
     }
+}
+.icons{
+    gap: 100px;
+     display: flex;
+     justify-content:center;
+     align-items: center;
 }
 .contener{
 
@@ -126,10 +132,10 @@ border-radius: 12%;
 }
 #musicBtn {
     padding: 12px 25px;
-    border: 2px solid #e50914;
+    border: 2px solid #abd1c6;
     border-radius: 30px;
-    background-color: transparent;
-    color: #e50914;
+    background-color: #19735a transparent;
+    color:#4c7372;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
@@ -138,8 +144,297 @@ border-radius: 12%;
 
 #musicBtn:hover {
 
-    background-color: #e50914;
+    background-color: #132e26 ;
     color: white;
     transform: scale(1.05);
     box-shadow: 0 0 15px #e50914;
 }
+.scrol {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    margin: 3em auto;
+    gap: 1em;
+    scroll-behavior: smooth;
+    anchor-name: --scrol;
+    scroll-snap-type: x mandatory;
+    scroll-marker-group: after;
+}
+
+.scrol::scroll-marker-group {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+
+
+.scrol::-webkit-scrollbar {
+    display: none;
+
+}
+
+.scrol::scroll-button(right),
+.scrol::scroll-button(left) {
+    content: '⇥';
+    border: none;
+    background-color: #abd1c6;
+    font-family: consolas;
+    font-size: 1rem;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding-bottom: .1em;
+    cursor: pointer;
+    position: fixed;
+    position-anchor: --scrol;
+    position-area: right center;
+    translate: -50%;
+}
+
+.scrol::scroll-button(left) {
+    content: '⇤';
+    position-area: left center;
+    translate: 50%;
+}
+
+.scrol::scroll-button(right):disabled,
+.scrol::scroll-button(left):disabled {
+    opacity: 0.5;
+    cursor: auto;
+
+}
+
+.scrol2{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    margin: 3em auto;
+    gap: 1em;
+    scroll-behavior: smooth;
+    anchor-name: --scrol2;
+    scroll-snap-type: x mandatory;
+    scroll-marker-group: after;
+}
+
+.scrol2::scroll-marker-group {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+
+
+.scrol2::-webkit-scrollbar {
+    display: none;
+
+}
+
+.scrol2::scroll-button(right),
+.scrol2::scroll-button(left) {
+    content: '⇥';
+    border: none;
+    background-color: #abd1c6;
+    font-family: consolas;
+    font-size: 1rem;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding-bottom: .1em;
+    cursor: pointer;
+    position: fixed;
+    position-anchor: --scrol2;
+    position-area: right center;
+    translate: -50%;
+}
+
+.scrol2::scroll-button(left) {
+    content: '⇤';
+    position-area: left center;
+    translate: 50%;
+}
+
+.scrol2::scroll-button(right):disabled,
+.scrol2::scroll-button(left):disabled {
+    opacity: 0.5;
+    cursor: auto;
+
+}
+
+
+
+.scrol3 {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    margin: 3em auto;
+    gap: 1em;
+    scroll-behavior: smooth;
+    anchor-name: --scrol3;
+    scroll-snap-type: x mandatory;
+    scroll-marker-group: after;
+}
+
+.scrol3::scroll-marker-group {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+
+
+.scrol3::-webkit-scrollbar {
+    display: none;
+
+}
+
+.scrol3::scroll-button(right),
+.scrol3::scroll-button(left) {
+    content: '⇥';
+    border: none;
+    background-color: #abd1c6;
+    font-family: consolas;
+    font-size: 1rem;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding-bottom: .1em;
+    cursor: pointer;
+    position: fixed;
+    position-anchor: --scrol3;
+    position-area: right center;
+    translate: -50%;
+}
+
+.scrol3::scroll-button(left) {
+    content: '⇤';
+    position-area: left center;
+    translate: 50%;
+}
+
+.scrol3::scroll-button(right):disabled,
+.scrol3::scroll-button(left):disabled {
+    opacity: 0.5;
+    cursor: auto;
+
+}
+.scrol4{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    margin: 3em auto;
+    gap: 1em;
+    scroll-behavior: smooth;
+    anchor-name: --scrol4;
+    scroll-snap-type: x mandatory;
+    scroll-marker-group: after;
+}
+
+.scrol4::scroll-marker-group {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+
+
+.scrol4::-webkit-scrollbar {
+    display: none;
+
+}
+
+.scrol4::scroll-button(right),
+.scrol4::scroll-button(left) {
+    content: '⇥';
+    border: none;
+    background-color: #abd1c6;
+    font-family: consolas;
+    font-size: 1rem;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding-bottom: .1em;
+    cursor: pointer;
+    position: fixed;
+    position-anchor: --scrol4;
+    position-area: right center;
+    translate: -50%;
+}
+
+.scrol4::scroll-button(left) {
+    content: '⇤';
+    position-area: left center;
+    translate: 50%;
+}
+
+.scrol4::scroll-button(right):disabled,
+.scrol4::scroll-button(left):disabled {
+    opacity: 0.5;
+    cursor: auto;
+
+}
+.scrol5{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    margin: 3em auto;
+    gap: 1em;
+    scroll-behavior: smooth;
+    anchor-name: --scrol5;
+    scroll-snap-type: x mandatory;
+    scroll-marker-group: after;
+}
+
+.scrol5::scroll-marker-group {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+
+
+.scrol5::-webkit-scrollbar {
+    display: none;
+
+}
+
+.scrol5::scroll-button(right),
+.scrol5::scroll-button(left) {
+    content: '⇥';
+    border: none;
+    background-color: #abd1c6;
+    font-family: consolas;
+    font-size: 1rem;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding-bottom: .1em;
+    cursor: pointer;
+    position: fixed;
+    position-anchor: --scrol5;
+    position-area: right center;
+    translate: -50%;
+}
+
+.scrol5::scroll-button(left) {
+    content: '⇤';
+    position-area: left center;
+    translate: 50%;
+}
+
+.scrol5::scroll-button(right):disabled,
+.scrol5::scroll-button(left):disabled {
+    opacity: 0.5;
+    cursor: auto;
+
+}
+
+
+
+@media(max-width) {
+    .contener {
+        flex: 0 0 100%;
+    }
+}
+
+
