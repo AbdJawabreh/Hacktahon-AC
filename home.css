@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navhead{
+    background-color:rgba(162, 205, 97, 0.9);
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    h2{
+        margin: 10px 20px;
+    }
+
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a{
+        font-size: 18px;
+        text-decoration: none;
+        margin: 10px;
+        padding: 10px;
+        color: black;
+        outline: none;
+    }
+
+    select{
+        font-size: 15px;
+        text-decoration: none;
+        background: none;
+        border: none;
+        margin: 10px;
+        padding: 8px;
+        color: black;
+        outline: none;
+    }
+
+    button{
+        font-size: 17px;
+        border: 1.5px solid black;
+        border-radius: 10px;
+        background:none;
+        margin: 10px 20px;
+        padding:10px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        transform: scale(1.03);
+        transition: 0.5s;
+        background-color: rgb(220, 239, 182);
+
+    }
+
+    #cart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+}
+.contener{
+
+    display: flex;
+   gap: 25px;
+
+
+}
+body{
+    background-color: #abd1c6;
+}
+.sec-title{
+   color:#0f3433;
+}
+h4{
+     position: absolute;
+    bottom:100px;
+    right:10px;
+  color:#fffffe;
+}
+.price{
+    position: absolute;
+    bottom:36px;
+    right:190px;
+  color: #abd1c6;
+    font-size: 25px;
+}
+.card{
+    border-radius:30px;
+     position: relative;
+width: 250px;
+height: 350px;
+background-color:#004643;
+}
+.card-btn{
+    position: absolute;
+    bottom:15px;
+    right: 54px;
+border-radius:10px;
+      background-color: rgb(90, 124, 38);
+      color: #FFFFFF;
+      width: 140px;
+      height: 30px;
+      border: none;
+}
+.card-btn:hover{
+    background-color: rgb(55, 80, 37);
+    cursor:pointer;
+}
+.card-img{
+position: absolute;
+border-radius: 12%;
+
+}
+.card-p{
+    color: #abd1c6;
+    position: absolute;
+    bottom:90px;
+    right:160px;
+}
+#musicBtn {
+    padding: 12px 25px;
+    border: 2px solid #e50914;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #e50914;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#musicBtn:hover {
+
+    background-color: #e50914;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #e50914;
+}
